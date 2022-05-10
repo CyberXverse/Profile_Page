@@ -1,7 +1,7 @@
 *{
-	margin: 0;a
+	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	box-sizing: border-box;
 }
 
@@ -25,11 +25,12 @@
 	color: #fff;
 } 
 
-.top icons{
+.top-icons{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
+	cursor: pointer;
 }
 
 .fa-heart{
@@ -37,18 +38,18 @@
 } 
 
 .user-img{
-	width: 100px;
-	border-radius: 50%;
+	width: 110px;
+	border-radius: 100%;
 }
 
 .profile h2{
-	font-weight: 500;
+	font-weight: bold;
 	font-size: 22px;
 	margin-top: 20px;
 }
 
 .profile p{
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .btn{
@@ -56,8 +57,29 @@
 	color: #fff;
 	padding: 10px 40px;
 	border-radius: 30px;
-	background: linear-gradient(to right, #8d68c5, #e34494);
+	background: linear-gradient(to right, #d69533, #f5410a);
 	display: inline-block;
 	margin: 40px 0;
 	font-size: 15px;
+	font-weight: bolder;
+}
+
+.social-media{
+	display: flex;
+	justify-content: space-around;
+	cursor: pointer;
+}
+
+.social-media img{
+	width: 60px;
+	border-radius: 50px;
+}
+
+.social-media h3{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.social-media div{
+	margin: 10px 0 30px;
 }
